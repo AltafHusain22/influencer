@@ -315,8 +315,8 @@ footer {
     text-align: center;
 }
 
-.footer_content h2, p {
-    color: var(--body-color);
+.footer_content p,h2 {
+    color: #fff;
 }
 
 .social i {
