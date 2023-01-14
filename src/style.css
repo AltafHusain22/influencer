@@ -1,0 +1,151 @@
+/* Google fonts */
+/* ----------------
+       poppins
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;700;800&display=swap');
+
+/* ----------------
+    base style 
+-------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --body-color: #fff;
+    --text-color: #3A3A3A;
+    --secodary-color: #E02C6D;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+/* ----------------
+    menu style 
+-------------------*/
+
+header {
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a, i {
+    padding: 10px;
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+
+.tooglebar{
+    display: none;
+}
+/* ----------------
+  banner section style 
+-------------------*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-info {
+    width: 50%;
+}
+
+.banner-info h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 70px;
+}
+
+.banner-info p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga';
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--secodary-color);
+    padding: 10px 24px;
+    border: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: var(--body-color);
+    font-size: 1rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 100%;
+}

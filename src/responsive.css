@@ -1,0 +1,103 @@
+/* ----------------
+   nav section responsive
+-------------------*/
+
+
+
+/* ----------------
+   Responsive banner section
+-------------------*/
+
+@media screen and (max-width: 668px) {
+    .banner {
+        width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    ul li a {
+        display: none;
+    }
+
+    .banner-info h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-info p {
+        text-align: center;
+    }
+
+    .btn {
+        margin-left: 14%;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-info {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 669px) and (max-width:992px) {
+
+    ul li a {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .banner-info h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        margin-left: 10%;
+    }
+
+    .banner-info p {
+        margin-left: 10%;
+    }
+
+    .btn {
+        margin-left: 10%;
+    }
+
+    .banner-image {
+        width: 50%;
+    }
+
+    .banner-info {
+        width: 50%;
+    }
+}
+
+
+
+/* ----------------
+   Responsive partners section
+-------------------*/
+@media screen and (max-width: 668px) {}
+
+@media screen and (min-width: 669px) and (max-width:992px) {}
+
+/* ----------------
+   Responsive products section
+-------------------*/
+
+@media screen and (max-width: 668px) {}
+
+@media screen and (min-width: 669px) and (max-width:992px) {}
